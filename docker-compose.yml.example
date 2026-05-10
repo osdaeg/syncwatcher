@@ -1,0 +1,18 @@
+services:
+  syncwatcher:
+    build: .
+    container_name: syncwatcher
+    restart: unless-stopped
+    networks:
+      - TuRed
+    volumes:
+      # Montar la carpeta de Syncthing (solo lectura para SyncWatcher)
+      - /ruta/a/donde/estan/los/montajes:/var/syncthing:ro
+      # Logs persistentes
+      - /ruta/a/los/losg/de/syncwatcher/log:/var/log/syncwatcher
+      - /rura/a/donde/esta/syncwatcher.env:/app/.env:ro
+      
+
+networks:
+  TuRed:
+    external: true

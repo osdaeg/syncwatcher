@@ -1,0 +1,8 @@
+syncwatcher.env
+docker-compose.yml
+*.log
+logs/
+SYNCWATCHER_SPECS.txt
+README.md.github
+
+README.md.codeberg
