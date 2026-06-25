@@ -26,8 +26,8 @@ Cada paso y cada tipo de archivo se configura de forma independiente por carpeta
 | Servicio | Descripción |
 |---|---|
 | [Syncthing](https://syncthing.net/) | Sincronización de archivos entre dispositivos |
-| [Transferr](https://github.com/osdaeg/transferr) | Microservicio de transferencia de archivos a destinos montados |
-| [Butler](https://github.com/osdaeg/butler) | Generador de fichas HTML con reseña vía Gemini |
+| [Transferr](https://codeberg.org/osdaeg/transferr) | Microservicio de transferencia de archivos a destinos montados |
+| [Butler](https://codeberg.org/osdaeg/butler) | Generador de fichas HTML con reseña vía Gemini |
 | [clamav-rest-api](https://github.com/benzino77/clamav-rest-api) | API REST para escaneo antivirus con ClamAV |
 | [Gotify](https://gotify.net/) | Servidor de notificaciones push |
 
@@ -46,7 +46,7 @@ Cada paso y cada tipo de archivo se configura de forma independiente por carpeta
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/osdaeg/syncwatcher
+git clone https://codeberg.org/osdaeg/syncwatcher
 cd syncwatcher
 ```
 
