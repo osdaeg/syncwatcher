@@ -6,3 +6,11 @@ SYNCWATCHER_SPECS.txt
 README.md.github
 
 README.md.codeberg
+
+backup_stack.sh
+
+syncwatcher.edit
+
+syncwatcher.list
+
+*.bak
